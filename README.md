@@ -1,7 +1,11 @@
 # Reinforcement learning applied to Texas Hold'em Poker
 
 ## Introduction
-We propose a Q-learning approach to solve a poker-based game, i.e single-round all-in/fold poker. We also implemented a multi-round approach also based on Q-learning as well as a Deep Q learning for exploratory purposes. This work as been done as part of our final project for the Reinforcement Learning course of CentraleSupélec.
+We propose a Q-learning approach to solve a poker-based game, i.e single-round all-in/fold poker. We also implemented a multi-round approach also based on Q-learning as well as a Deep Q learning for exploratory purposes. This work as been done as part of our final project for the Reinforcement Learning course of CentraleSupélec. The final report for this project is available [here](Reinforcement_Leaning_DAO_QUENTIN_RIO.pdf).
+
+Our Q-learning agent was able to beat the random policy baseline on average at multiple-round all-in/fold poker:
+![demo](results.png)
+
 
 ## Environment
 We want to kindly thank Ferdinand Schlatt for developing open-source poker environment package clubs_gym on which our implementation is based, and for his quick answers to all issues we may have had with his package.
